@@ -17,7 +17,7 @@ const HeroButtons = () => {
         </div>
 
         <div className="flex flex-row gap-5 justify-center mt-12 mr-24">
-          <Button variant="socialMidia">
+          <Button variant="socialMidia" >
             <FaLinkedin className="w-5 h-5"/>
             LinkedIn
           </Button>

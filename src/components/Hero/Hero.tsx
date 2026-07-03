@@ -1,21 +1,19 @@
 
-import Background from './Background'
-import BadgeScroll from './BadgeScroll'
-import BadgeStatus from './BadgeStatus'
+import BadgeScroll from '../Bagde/BadgeScroll'
+import BadgeStatus from '../Bagde/BadgeStatus'
 import HeroButtons from './HeroButtons'
 import HeroContent from './HeroContent'
 import HeroStack from './HeroStack'
 
 const Hero = () => {
   return (
-    <section className='ml-68 mt-24'>
-        <Background />
+    <header className="mt-24 px-6 md:px-10 lg:ml-68 lg:px-0">
         <BadgeStatus />
         <HeroContent />
         <HeroButtons />
         <HeroStack />
         <BadgeScroll />
-    </section>
+    </header>
   )
 }
 
