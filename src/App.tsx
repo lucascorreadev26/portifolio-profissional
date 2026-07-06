@@ -1,16 +1,12 @@
-
-import About from "./components/About/About"
-import Hero from "./components/Hero/Hero"
-import Navbar from "./components/Navbar/Navbar"
-
+import Header from "./components/Header/Header"
+import Main from "./components/Main/Main"
 
 const App = () => {
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About /> 
+      <Header />
+      <Main />
     </>
   )
 }

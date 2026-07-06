@@ -1,12 +1,13 @@
-import CardsStacks from "../Cards/CardsStacks"
+import CardsStacks from "../../Cards/CardsStacks";
 
 import {
   SiReact,
   SiNodedotjs,
   SiPostgresql,
   SiNextdotjs,
-  SiDocker,
   SiTypescript,
+  SiPrisma,
+  SiVite,
 } from "react-icons/si";
 
 const HeroStack = () => {
@@ -17,10 +18,14 @@ const HeroStack = () => {
       </h2>
 
       <div className="flex flex-wrap justify-center lg:justify-start gap-4 lg:gap-6 mt-6">
-
         <CardsStacks variant="primary">
           <SiReact className="text-cyan-400 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
-          React
+          <span>React</span>
+        </CardsStacks>
+
+        <CardsStacks variant="primary">
+          <SiVite className="text-white bg-purple-600 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+          <span>Vite</span>
         </CardsStacks>
 
         <CardsStacks variant="primary">
@@ -30,27 +35,26 @@ const HeroStack = () => {
 
         <CardsStacks variant="primary">
           <SiNodedotjs className="text-green-500 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
-          Node.js
+          <span>Node.js</span>
         </CardsStacks>
 
         <CardsStacks variant="primary">
           <SiPostgresql className="text-sky-500 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
-          PostgreSQL
+          <span>PostgreSQL</span>
         </CardsStacks>
 
         <CardsStacks variant="primary">
           <SiNextdotjs className="text-white bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
-          Next.js
+          <span>Next.js</span>
         </CardsStacks>
 
         <CardsStacks variant="primary">
-          <SiDocker className="text-sky-500 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
-          Docker
+          <SiPrisma className="text-white bg-slate-800 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+          <span>Prisma</span>
         </CardsStacks>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroStack
+export default HeroStack;

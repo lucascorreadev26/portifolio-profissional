@@ -1,6 +1,6 @@
 
-import BadgeScroll from '../Bagde/BadgeScroll'
-import BadgeStatus from '../Bagde/BadgeStatus'
+import BadgeScroll from '../../Bagde/BadgeScroll'
+import BadgeStatus from '../../Bagde/BadgeStatus'
 import HeroButtons from './HeroButtons'
 import HeroContent from './HeroContent'
 import HeroStack from './HeroStack'
