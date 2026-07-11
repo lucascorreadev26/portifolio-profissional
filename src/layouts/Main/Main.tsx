@@ -1,7 +1,7 @@
 import Hero from "../../sections/Hero/Hero";
 import About from "../../sections/About/About";
-import Projetcs from "../../sections/Projects/Projetcs";
 import Tech from "../../sections/Tech/Tech";
+import ProjectsList from "../../sections/Projects/ProjectsList";
 
 const Main = () => {
   return (
@@ -15,9 +15,11 @@ const Main = () => {
       <section id="tech">
         <Tech />
       </section>
+
       <section id="projects">
-        <Projetcs />
+        <ProjectsList />
       </section>
+
     </main>
   );
 };
