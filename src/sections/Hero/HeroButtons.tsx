@@ -1,5 +1,4 @@
- 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Button from "../../components/Button/Button";
 
 

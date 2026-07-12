@@ -1,19 +1,19 @@
-import React from 'react'
-
 type CardsProps = {
-    children: React.ReactNode,
-    variant: "primary",
-}
+  children: React.ReactNode;
+  variant: "primary";
+};
 
-const CardsStacks = ({children, variant = "primary"}: CardsProps) => {
+const CardsStacks = ({ children, variant = "primary" }: CardsProps) => {
   return (
     <div>
-        <div className={`inline-flex flex-col items-center font-sans text-sm
-            ${variant === "primary"}`} >
-            {children}
-        </div>
+      <div
+        className={`inline-flex flex-col items-center font-sans text-sm
+            ${variant === "primary"}`}
+      >
+        {children}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default CardsStacks
+export default CardsStacks;

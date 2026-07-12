@@ -19,7 +19,6 @@ const Main = () => {
       <section id="projects">
         <ProjectsList />
       </section>
-
     </main>
   );
 };
