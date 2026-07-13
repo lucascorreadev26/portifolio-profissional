@@ -10,6 +10,9 @@ import {
 
 import type { Project } from "./types";
 
+import projetoImportSolution from "../../assets/screenshots/projeto-import-solution.jpeg";
+import projetoPortifolioProfissional from "../../assets/screenshots/projeto-portifolio-profissional.jpeg";
+
 export const projects: Project[] = [
   // Projeto 01 - Imports Solution
   {
@@ -27,6 +30,8 @@ export const projects: Project[] = [
       SiGithub,
       SiGit,
     ],
+
+    image: projetoImportSolution,
 
     liveUrl: "https://www.importssolution.com.br/",
     githubUrl: "https://github.com/lucascorreadev26/imports-solution",
@@ -48,6 +53,8 @@ export const projects: Project[] = [
       SiGithub,
       SiGit,
     ],
+
+    image: projetoPortifolioProfissional,
 
     liveUrl: "https://lucascorreadev.com.br/",
     githubUrl: "https://github.com/lucascorreadev26/portifolio-profissional",
