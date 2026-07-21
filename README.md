@@ -71,7 +71,7 @@ Link do projeto: `ADICIONE_AQUI_O_LINK_DO_PROJETO`
 ## Seção sobre
 
 <p align="center">
-  <img src="./screenshots/aboutDesktop.png" width="900" alt="Seção sobre do portfólio"/>
+  <img src="./src/assets/screenshots/sobreDesktop.jpeg" width="900" alt="Seção sobre do portfólio"/>
 </p>
 
 ---
@@ -79,7 +79,7 @@ Link do projeto: `ADICIONE_AQUI_O_LINK_DO_PROJETO`
 ## Projetos
 
 <p align="center">
-  <img src="./screenshots/projectsDesktop.png" width="900" alt="Seção de projetos do portfólio"/>
+  <img src="./src/assets/screenshots/projetosDesktop.jpeg" width="900" alt="Seção de projetos do portfólio"/>
 </p>
 
 ---
@@ -87,7 +87,7 @@ Link do projeto: `ADICIONE_AQUI_O_LINK_DO_PROJETO`
 ## Serviços
 
 <p align="center">
-  <img src="./screenshots/servicesDesktop.png" width="900" alt="Seção de serviços do portfólio"/>
+  <img src="./src/assets/screenshots/servicosDesktop.jpeg" width="900" alt="Seção de serviços do portfólio"/>
 </p>
 
 ---
