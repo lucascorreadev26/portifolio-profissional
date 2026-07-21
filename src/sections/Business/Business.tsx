@@ -40,7 +40,7 @@ const Business = () => {
               <img
                 src={logoImportsSolution}
                 alt="Logo Imports Solution"
-                className="h-full w-full scale-110 object-contain p-0 transition-transform duration-500 group-hover:scale-125"
+                className="h-full w-full scale-110 object-contain mt-2 transition-transform duration-500 group-hover:scale-125"
               />
             </div>
 
