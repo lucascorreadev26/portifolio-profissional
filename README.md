@@ -195,7 +195,3 @@ src/
 # 👨‍💻 Autor
 
 Desenvolvido por **Lucas Correa**.
-
-* GitHub: `ADICIONE_AQUI_SEU_GITHUB`
-* LinkedIn: `ADICIONE_AQUI_SEU_LINKEDIN`
-* Portfólio: `ADICIONE_AQUI_O_LINK_DO_PORTFOLIO`
