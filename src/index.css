@@ -77,3 +77,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.title-logo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}

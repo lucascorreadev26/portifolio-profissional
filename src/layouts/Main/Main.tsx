@@ -3,6 +3,7 @@ import About from "../../sections/About/About";
 import Tech from "../../sections/Tech/Tech";
 import ProjectsList from "../../sections/Projects/ProjectsList";
 import Servicos from "../../sections/Servicos/ServicesList";
+import Business from "../../sections/Business/Business";
 
 const Main = () => {
   return (
@@ -25,6 +26,10 @@ const Main = () => {
 
       <section id="servicos">
         <Servicos />
+      </section>
+
+      <section>
+        <Business />
       </section>
     </main>
   );
