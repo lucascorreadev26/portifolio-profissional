@@ -4,7 +4,7 @@ import { projects } from "./projects";
 
 const ProjectsList = () => {
   return (
-    <section className="bg-[#08090F] pt-24 px-6 md:px-10 lg:px-0 py-20">
+    <section className="bg-[#08090F] px-6 py-20 pt-24 md:px-10 lg:px-0">
       <div className="max-w-3xl lg:ml-64">
         <div className="">
           <BadgeSection>
@@ -12,13 +12,16 @@ const ProjectsList = () => {
             <span className="font-mono font-bold uppercase">Projetos</span>
           </BadgeSection>
 
-          <h2 className="sm:text-5xl lg:text-4xl font-extrabold font-inter text-center lg:text-left uppercase mb-2 mt-10 ">
+          <h2 className="font-inter mt-10 mb-2 text-center text-3xl font-extrabold uppercase lg:text-left lg:text-4xl">
             Experiências que construí
           </h2>
-          <p className="text-lg lg:text-md font-inter w-full lg:w-140 text-center lg:text-justify mt-2 text-gray-400">Aplicações desenvolvidas para resolver problemas reais, unindo tecnologia, experiência do usuário e objetivos de negócio.</p>
+          <p className="lg:text-md font-inter mt-2 w-full text-center text-lg text-gray-400 lg:w-140 lg:text-justify">
+            Aplicações desenvolvidas para resolver problemas reais, unindo
+            tecnologia, experiência do usuário e objetivos de negócio.
+          </p>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-32 lg:w-7xl">
+        <div className="mt-10 grid grid-cols-1 gap-16 md:grid-cols-2 lg:w-7xl lg:gap-32">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

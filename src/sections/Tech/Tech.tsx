@@ -18,10 +18,9 @@ import {
 import BadgeSection from "../../components/Bagde/BadgeSection";
 import CardsStacks from "../../components/Cards/CardsStacks";
 
-
 const Tech = () => {
   return (
-    <div className=" bg-[#08090F] pt-24 px-6 md:px-10 lg:px-0">
+    <div className="bg-[#08090F] px-6 pt-24 md:px-10 lg:px-0">
       <div className="lg:ml-62">
         <BadgeSection variant="primary">
           <span>&gt;_</span>
@@ -30,52 +29,52 @@ const Tech = () => {
       </div>
 
       <div className="mt-10 lg:ml-62">
-        <h2 className="sm:text-5xl lg:text-4xl font-extrabold font-inter text-center lg:text-left uppercase mb-2">
+        <h2 className="font-inter mb-2 text-center text-3xl font-extrabold uppercase lg:text-left lg:text-4xl">
           Meu stack técnico
         </h2>
-        <p className="text-lg lg:text-md font-inter w-full lg:w-140 text-center lg:text-justify mt-2 text-gray-400">
+        <p className="lg:text-md font-inter mt-2 w-full text-center text-lg text-gray-400 lg:w-140 lg:text-justify">
           Ferramentas que uso para entregar produtos robustos, escaláveis e com
           ótima experiência.
         </p>
 
-        <div className="flex flex-wrap justify-center lg:justify-start gap-4 lg:gap-6 mt-6">
+        <div className="mt-6 flex flex-wrap justify-center gap-4 lg:justify-start lg:gap-6">
           <CardsStacks variant="primary">
-            <SiReact className="text-cyan-400 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
+            <SiReact className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-gray-300/10 px-2 text-cyan-400" />
             <span>React</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiVite className="text-white bg-purple-600 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiVite className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-purple-600 p-2 text-white" />
             <span>Vite</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiTypescript className="text-blue-400 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
+            <SiTypescript className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-gray-300/10 px-2 text-blue-400" />
             <span>TypeScript</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiJavascript className="text-black bg-yellow-400 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiJavascript className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-yellow-400 p-2 text-black" />
             <span>JavaScript</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiNodedotjs className="text-green-500 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
+            <SiNodedotjs className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-gray-300/10 px-2 text-green-500" />
             <span>Node.js</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiNextdotjs className="text-white bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
+            <SiNextdotjs className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-gray-300/10 px-2 text-white" />
             <span>Next.js</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiExpress className="text-white bg-gray-700 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiExpress className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-gray-700 p-2 text-white" />
             <span>Express</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiTailwindcss className="text-white bg-cyan-500 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiTailwindcss className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-cyan-500 p-2 text-white" />
             <span className="text-center">
               Tailwind
               <br />
@@ -84,7 +83,7 @@ const Tech = () => {
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiPostgresql className="text-sky-500 bg-gray-300/10 border border-gray-300 rounded-lg w-12 h-12 px-2 mt-4 mb-2" />
+            <SiPostgresql className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-gray-300/10 px-2 text-sky-500" />
             <span className="text-center">
               Postgre
               <br />
@@ -93,32 +92,32 @@ const Tech = () => {
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiPrisma className="text-white bg-slate-800 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiPrisma className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-slate-800 p-2 text-white" />
             <span>Prisma</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiGithub className="text-white bg-black border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiGithub className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-black p-2 text-white" />
             <span>GitHub</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiGit className="text-white bg-orange-600 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiGit className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-orange-600 p-2 text-white" />
             <span>Git</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiGraphql className="text-white bg-pink-600 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiGraphql className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-pink-600 p-2 text-white" />
             <span>GraphQL</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiRedis className="text-white bg-red-600 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiRedis className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-red-600 p-2 text-white" />
             <span>Redis</span>
           </CardsStacks>
 
           <CardsStacks variant="primary">
-            <SiNpm className="text-white bg-red-600 border border-gray-300 rounded-lg w-12 h-12 p-2 mt-4 mb-2" />
+            <SiNpm className="mt-4 mb-2 h-12 w-12 rounded-lg border border-gray-300 bg-red-600 p-2 text-white" />
             <span>npm</span>
           </CardsStacks>
         </div>
